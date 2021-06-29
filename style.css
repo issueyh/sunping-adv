@@ -1,0 +1,44 @@
+* {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    box-sizing: border-box;
+    /* border:2px solid red; */
+}
+body {
+    height: 100%;
+}
+main {
+    min-height: 100%;
+}
+nav img {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+    border-radius: 50px;
+}
+footer {
+    background: url(./image/silver.jpg) repeat;
+    padding: 15px 0 0;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+.comm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cominfo p {
+    margin: 5px auto;
+}
+#copyright {
+    text-align: center;
+    padding: 7px 15px 0;
+    font-weight: bolder;
+    color: #0179cb;
+    font-size: 18px;
+}
+.carousel .carousel-inner img {
+    width: 100vw;
+    height: 80vh;
+    border-radius: 10px;
+}
