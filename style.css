@@ -72,3 +72,12 @@ section {
     justify-content: space-evenly;
     align-items: flex-start;
 }
+
+.newBanner {
+    z-index: -1;
+    margin: -5px;
+    height: 360px;
+    background: #dddddd 50% 60% url('https://i.picsum.photos/id/1026/4621/3070.jpg?hmac=OJ880cIneqAKIwHbYgkRZxQcuMgFZ4IZKJasZ5c5Wcw');
+    background-size: cover;
+    /* filter: blur(3px); */
+}
