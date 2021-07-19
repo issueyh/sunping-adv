@@ -66,6 +66,11 @@ section {
 .engineer .card:hover {
     box-shadow: 0px 0px 10px 1px rgba(50, 50, 223, 0.8);
 }
+#member-modal-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 .memberInfo {
     display: flex;
     flex-direction: column;

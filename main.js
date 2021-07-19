@@ -65,7 +65,7 @@ function renderEngineerList(data) {
 }
 
 function showNameCardModel(id) {
-    const modalTitle = document.querySelector("#member-modal-title")
+    const modalTitle = document.querySelector(".modal-title")
     const modalImage = document.querySelector("#member-modal-image")
     const modalPhone = document.querySelector("#member-modal-phone")
     const modalEmail = document.querySelector("#member-modal-email")
@@ -75,7 +75,7 @@ function showNameCardModel(id) {
             // console.log(result)
             const member = result.engineer.map((item) => {
                 if (item.id == id) {
-                    modalTitle.innerHTML = `${item.name}`
+                    modalTitle.innerHTML = `工程師：${item.name}`
                     // console.log(typeof(item.name))
                     modalPhone.innerHTML = `phone: ${item.phone}`
                     modalEmail.innerHTML = `email: ${item.email}`
