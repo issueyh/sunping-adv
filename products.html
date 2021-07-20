@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sunping refactor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+            <div class="container">
+                <img src="./image/三品logo.jpg" alt="">
+                <a class="navbar-brand" href="index.html">三品科技</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="about.html">關於我們</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="products.html">服務項目</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                檢驗線
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">車輛檢驗系統</a>
+                                <a class="dropdown-item" href="#">機車檢驗系統</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">檢驗硬體架構</a>
+                                <a class="dropdown-item" href="newVIS.html">規劃新檢驗線</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="download.html">下載專區</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-info login">登入</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container my-3">
+            <div class="card-deck mb-2">
+                <div class="card">
+                    <img class="card-img-top" src="./image/地磅.png" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>地磅錶頭</b></h3>
+                        <p class="card-text">測量車輛軸重</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./image/里程.jpg" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>手機里程拍照</b></h3>
+                        <p class="card-text">政府規定紀錄里程</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./image/柴油.png" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>柴油煙度計</b></h3>
+                        <p class="card-text">柴油車排放污染度</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck mb-2">
+                <div class="card">
+                    <img class="card-img-top" src="./image/偏滑.jpg" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>偏滑試驗器</b></h3>
+                        <p class="card-text">測量車輛直線行駛</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./image/蛇管.jpg" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>蛇管攝影機</b></h3>
+                        <p class="card-text">巡視引擎號碼</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./image/測高.jpg" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>雷射車高測量</b></h3>
+                        <p class="card-text">測量車身高度</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./image/煞車.jpg" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>煞車試驗器</b></h3>
+                        <p class="card-text">測量車輛煞車能力</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./image/廢氣.jpg" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>廢氣分析儀</b></h3>
+                        <p class="card-text">測量汽油車廢氣排放</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./image/檢驗燈.jpg" alt="Card image cap">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title"><b>檢驗燈</b></h3>
+                        <p class="card-text">引擎號碼照明燈</p>
+                    </div>
+                    <div class="card-footer text-right">
+                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-2x fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="comm col-md-6">
+                    <div class="icon">
+                        <i class="fas fa-map-signs fa-5x"></i>
+                    </div>
+                    <div class="cominfo">
+                        <p>TEL：886-2-3765-1488</p>
+                        <p>FAX：886-2-8787-5665</p>
+                        <p>E-mail：sunpinge@ms33.hinet.net</p>
+                    </div>
+                </div>
+                <hr />
+                <div class="comm col-md-6">
+                    <div class="icon">
+                        <i class="fas fa-location-arrow fa-5x"></i>
+                    </div>
+                    <div class="cominfo">
+                        <p>110臺北市信義區松隆路272號5樓</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="copyright" class="col-md-12">
+                    <p>© Copyright 2021 Sun Pin Technology | All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
