@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header>
+<body class="ps-bg">
+    <!-- <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
             <div class="container">
                 <img src="./image/三品logo.jpg" alt="">
@@ -50,63 +50,33 @@
                             <a class="nav-link text-light" href="download.html">下載專區</a>
                         </li>
                     </ul>
-                    <a class="btn btn-outline-info login" href="login.html">登入</a>
+                    <button type="button" class="btn btn-outline-info login">登入</button>
                 </div>
             </div>
         </nav>
-    </header>
+    </header> -->
 
-    <main>
-        <div class="container my-3">
-            <h2>下載專區</h2>
-            <table class="table table-hover text-center" style="font-weight:bold; font-size: 1.5em;">
-                <thead class="table-info">
-                    <tr>
-                        <th class="col-sm-9">標題</th>
-                        <th class="col-sm-3">檔案</th>
-                    </tr>
-                </thead>
-                <tbody id="data-files">
-                    <tr>
-                        <th class="text-left">DM</th>
-                        <th><a class="btn btn-outline-danger" href="./document/下載專區/三品DM2017.pdf"  target="_blank">PDF</a></th>
-                    </tr>
-                </tbody>
-            </table>
+    <div class="signinBoard col-sm-8">
+        <div class="back-index text-center">
+            <a class="brand" href="index.html">
+                <img src="./image/三品logo.jpg" alt="">
+                <b class="align-top">三品科技</b>
+            </a>
         </div>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="comm col-md-6">
-                    <div class="icon">
-                        <i class="fas fa-map-signs fa-5x"></i>
-                    </div>
-                    <div class="cominfo">
-                        <p>TEL：886-2-3765-1488</p>
-                        <p>FAX：886-2-8787-5665</p>
-                        <p>E-mail：sunpinge@ms33.hinet.net</p>
-                    </div>
-                </div>
-                <hr />
-                <div class="comm col-md-6">
-                    <div class="icon">
-                        <i class="fas fa-location-arrow fa-5x"></i>
-                    </div>
-                    <div class="cominfo">
-                        <p>110臺北市信義區松隆路272號5樓</p>
-                    </div>
-                </div>
+        <form id="form" novalidate>
+            <div class="form-group">
+                <label for="spanLoginTitle"><b>帳號</b></label>
+                <input type="text" class="form-control" id="spanLoginTitle" placeholder="請輸入帳號 ..." required>
             </div>
-            <div class="row">
-                <div id="copyright" class="col-md-12">
-                    <p>© Copyright 2021 Sun Pin Technology | All Rights Reserved
-                    </p>
-                </div>
+            <div class="form-group">
+                <label for="spanPwdTitle"><b>密碼</b></label>
+                <input type="text" class="form-control" id="spanPwdTitle" placeholder="請輸入密碼 ..." required>
             </div>
-        </div>
-    </footer>
+            <div class="d-flex flex-row justify-content-center mt-4">
+                <button type="submit" class="btn btn-outline-info">登入</button>
+            </div>
+        </form>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

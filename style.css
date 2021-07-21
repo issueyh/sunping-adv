@@ -115,3 +115,36 @@ section {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.ps-bg {
+    background: rgb(127, 255, 212) url('./image/3bg.jpg');
+    background-repeat: repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signinBoard {
+    max-width: 500px;
+    max-height: 560px;
+    background: white;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 1px 1px 20px 5px rgba(50, 50, 223, 0.7);
+}
+.back-index .brand {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.back-index .brand b {
+    font-size: 2em;
+    padding: 20px;
+}
+.signinBoard form b {
+    font-size: 1.5em;
+}

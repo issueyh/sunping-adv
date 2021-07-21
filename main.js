@@ -9,7 +9,7 @@ function renderEngineerList(data) {
             <div class="mb-2">
                 <div class="card text-center">
                     <label class="card-body">
-                        <h3 class="card-title" id="member-modal-title">${item.name}</h3>
+                        <h3 class="card-title">${item.name}</h3>
                         <button type="button" class="btn btn-outline-warning btn-show-member far fa-address-card fa-2x" data-toggle="modal" data-target="#nameCard" data-id="${item.id}"></button>
                     </label>
                 </div>
@@ -20,14 +20,13 @@ function renderEngineerList(data) {
 }
 
 function showNameCardModel(id) {
-    const modalTitle = document.querySelector(".modal-title")
+    const modalTitle = document.querySelector("#member-modal-title")
     const modalImage = document.querySelector("#member-modal-image")
     const modalPhone = document.querySelector("#member-modal-phone")
     const modalEmail = document.querySelector("#member-modal-email")
     fetch("engineer.json")
         .then((data) => data.json('engineer'))
         .then((result) => {
-            // console.log(result)
             const member = result.engineer.map((item) => {
                 if (item.id == id) {
                     modalTitle.innerHTML = `工程師：${item.name}`
@@ -51,7 +50,6 @@ dataPanel.addEventListener('click', function onPanelClicked(event) {
 fetch("engineer.json")
     .then((data) => data.json('engineer'))
     .then((result) => {
-        // console.log(result)
         engineer.push(...result.engineer)
         renderEngineerList(engineer)
     })
