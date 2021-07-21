@@ -36,9 +36,10 @@ footer {
     color: #0179cb;
     font-size: 18px;
 }
+
 .carousel .carousel-inner img {
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     border-radius: 10px;
 }
 
@@ -102,4 +103,15 @@ section {
 .card-deck .card-footer .btn {
     padding: 10px 16px 8px 20px;
     border-radius: 50px;
+}
+
+.jumbotron {
+    background: rgb(42, 82, 190);
+    color: #ffe484;
+    border-radius: 20px;
+}
+.jumbotron .lead,
+.jumbotron .door .btn {
+    font-size: 1.5em;
+    font-weight: bold;
 }
