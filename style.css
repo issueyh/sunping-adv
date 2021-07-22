@@ -148,3 +148,19 @@ section {
 .signinBoard form b {
     font-size: 1.5em;
 }
+
+.motorSet {
+    font-size: 1.5em;
+}
+.projectPhotos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projectPhotos img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
