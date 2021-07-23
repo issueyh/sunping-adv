@@ -150,17 +150,20 @@ section {
 }
 
 .motorSet {
-    font-size: 1.5em;
-}
-.projectPhotos {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
 }
-.projectPhotos img {
-    width: 300px;
-    height: 300px;
+.motorSet h3 {
+    font-weight: bold;
+}
+.motorSet .carousel {
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
-    margin-bottom: 5px;
+}
+.motorSet .carousel .carousel-item img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
 }
