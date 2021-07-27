@@ -167,3 +167,40 @@ section {
     height: 500px;
     border-radius: 10px;
 }
+.motorPhotos h3 {
+    font-weight: bold;
+}
+@media (min-width: 768px) { 
+    .card-columns {
+        column-count: 4;
+    }
+}
+.card-columns .card {
+    border: 0px solid transparent;
+}
+.card-columns .card img {
+    border-radius: 20px;
+}
+.card-columns .card .card-body {
+    padding: 10px 0 10px 10px;
+}
+.station-wrapper {
+    display: flex;
+    align-items: center;
+}
+.station-wrapper .box {
+    border:1px solid #ccd0d5;
+    width: 50px;
+    height: 50px;
+    padding: 8px 0 0 10px;
+    background-color: rgb(30, 144, 255);
+    display:inline-block;
+    border-radius: 50%;
+    cursor: grab;
+    color: white;
+}
+.station-wrapper .station {
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+}
