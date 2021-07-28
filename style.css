@@ -108,21 +108,6 @@ section {
 .pd-list .pd-text {
     font-size: 1.5rem;
 }
-/* .card-deck .card-img-top {
-    height: 250px;
-}
-.card-deck .card-body p {
-    font-size: 1.5rem;
-}
-.card-deck .card-footer {
-    outline: none;
-    border: 0px solid transparent;
-    background: transparent;
-}
-.card-deck .card-footer .btn {
-    padding: 10px 16px 8px 20px;
-    border-radius: 50px;
-} */
 
 .jumbotron {
     background: rgb(42, 82, 190);
