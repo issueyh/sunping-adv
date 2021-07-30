@@ -115,7 +115,7 @@ section {
     opacity: 0.8;
     background-color: #4285f4;
 }
-.backToTop a, .backToTop a:link, .backToTop a:visited, .backToTop a:active {
+.backToTop a {
     color: #509dd5;
     text-decoration: none;
     transition: all .25s linear;
