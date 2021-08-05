@@ -68,72 +68,66 @@
         },
         {
             "id": 12,
-            "img": "./image/宜蘭一道.jpg",
-            "oneword": "宜",
-            "station": "宜蘭一道"
-        },
-        {
-            "id": 13,
             "img": "./image/板橋重機1.jpg",
             "oneword": "板",
             "station": "板橋重機"
         },
         {
-            "id": 14,
+            "id": 13,
             "img": "./image/花連重機1.jpg",
             "oneword": "花",
             "station": "花蓮重機"
         },
         {
-            "id": 15,
+            "id": 14,
             "img": "./image/花連重機2.jpg",
             "oneword": "花",
             "station": "花蓮重機"
         },
         {
-            "id": 16,
+            "id": 15,
             "img": "./image/花蓮一道.jpg",
             "oneword": "花",
             "station": "花蓮一道"
         },
         {
-            "id": 17,
+            "id": 16,
             "img": "./image/臺北所一道.jpg",
             "oneword": "北",
             "station": "臺北所一道"
         },
         {
-            "id": 18,
+            "id": 17,
             "img": "./image/臺北所二道.jpg",
             "oneword": "北",
             "station": "臺北所二道"
         },
         {
-            "id": 19,
+            "id": 18,
             "img": "./image/臺北所三道.jpg",
             "oneword": "北",
             "station": "臺北所三道"
         },
         {
-            "id": 20,
+            "id": 19,
             "img": "./image/臺北所四道.jpg",
             "oneword": "北",
             "station": "臺北所四道"
         },
         {
-            "id": 21,
+            "id": 20,
             "img": "./image/臺北所重機1.jpg",
             "oneword": "北",
             "station": "臺北所重機"
         },
         {
-            "id": 22,
+            "id": 21,
             "img": "./image/臺北所重機2.jpg",
             "oneword": "北",
             "station": "臺北所重機"
         },
         {
-            "id": 23,
+            "id": 22,
             "img": "./image/蘆洲重機2.jpg",
             "oneword": "蘆",
             "station": "蘆洲重機"
