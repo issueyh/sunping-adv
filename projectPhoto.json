@@ -1,0 +1,142 @@
+{
+    "projectPhoto": [
+        {
+            "id": 1,
+            "img": "./image/中壢站1.jpg",
+            "oneword": "壢",
+            "station": "中壢重機"
+        },
+        {
+            "id": 2,
+            "img": "./image/中壢站2.jpg",
+            "oneword": "壢",
+            "station": "中壢重機"
+        },
+        {
+            "id": 3,
+            "img": "./image/玉里站.jpg",
+            "oneword": "玉",
+            "station": "玉里重機"
+        },
+        {
+            "id": 4,
+            "img": "./image/宜蘭站1.jpg",
+            "oneword": "宜",
+            "station": "宜蘭重機"
+        },
+        {
+            "id": 5,
+            "img": "./image/東勢站.jpg",
+            "oneword": "東",
+            "station": "東勢重機"
+        },
+        {
+            "id": 6,
+            "img": "./image/苗栗站.jpg",
+            "oneword": "苗",
+            "station": "苗栗重機"
+        },
+        {
+            "id": 7,
+            "img": "./image/雲林站.jpg",
+            "oneword": "雲",
+            "station": "雲林重機"
+        },
+        {
+            "id": 8,
+            "img": "./image/雲林站1.jpg",
+            "oneword": "雲",
+            "station": "雲林重機"
+        },
+        {
+            "id": 9,
+            "img": "./image/裕信.jpg",
+            "oneword": "裕",
+            "station": "裕信小車"
+        },
+        {
+            "id": 10,
+            "img": "./image/嘉義站.jpg",
+            "oneword": "嘉",
+            "station": "嘉義重機"
+        },
+        {
+            "id": 11,
+            "img": "./image/鴻上小車.jpg",
+            "oneword": "鴻",
+            "station": "鴻上小車"
+        },
+        {
+            "id": 12,
+            "img": "./image/宜蘭一道.jpg",
+            "oneword": "宜",
+            "station": "宜蘭一道"
+        },
+        {
+            "id": 13,
+            "img": "./image/板橋重機1.jpg",
+            "oneword": "板",
+            "station": "板橋重機"
+        },
+        {
+            "id": 14,
+            "img": "./image/花連重機1.jpg",
+            "oneword": "花",
+            "station": "花蓮重機"
+        },
+        {
+            "id": 15,
+            "img": "./image/花連重機2.jpg",
+            "oneword": "花",
+            "station": "花蓮重機"
+        },
+        {
+            "id": 16,
+            "img": "./image/花蓮一道.jpg",
+            "oneword": "花",
+            "station": "花蓮一道"
+        },
+        {
+            "id": 17,
+            "img": "./image/臺北所一道.jpg",
+            "oneword": "北",
+            "station": "臺北所一道"
+        },
+        {
+            "id": 18,
+            "img": "./image/臺北所二道.jpg",
+            "oneword": "北",
+            "station": "臺北所二道"
+        },
+        {
+            "id": 19,
+            "img": "./image/臺北所三道.jpg",
+            "oneword": "北",
+            "station": "臺北所三道"
+        },
+        {
+            "id": 20,
+            "img": "./image/臺北所四道.jpg",
+            "oneword": "北",
+            "station": "臺北所四道"
+        },
+        {
+            "id": 21,
+            "img": "./image/臺北所重機1.jpg",
+            "oneword": "北",
+            "station": "臺北所重機"
+        },
+        {
+            "id": 22,
+            "img": "./image/臺北所重機2.jpg",
+            "oneword": "北",
+            "station": "臺北所重機"
+        },
+        {
+            "id": 23,
+            "img": "./image/蘆洲重機2.jpg",
+            "oneword": "蘆",
+            "station": "蘆洲重機"
+        }
+    ]
+}
