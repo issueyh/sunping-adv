@@ -131,6 +131,12 @@
             "img": "./image/蘆洲重機2.jpg",
             "oneword": "蘆",
             "station": "蘆洲重機"
+        },
+        {
+            "id": 23,
+            "img": "./image/桃園煞車.jpg",
+            "oneword": "桃",
+            "station": "桃園煞車"
         }
     ]
 }
