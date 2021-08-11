@@ -85,13 +85,15 @@ section {
     z-index: -1;
     margin: -5px;
     height: 360px;
-    background: #dddddd 50% 60% url('https://i.picsum.photos/id/1026/4621/3070.jpg?hmac=OJ880cIneqAKIwHbYgkRZxQcuMgFZ4IZKJasZ5c5Wcw');
+    background: #dddddd 50% 60% url('./image/公版檢驗線無車.jpg');
     background-size: cover;
 }
 
-.pd-list .row {
+.pd-list .pd-wrapper {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 .pd-list img {
     width: 100vw;
@@ -100,10 +102,22 @@ section {
 }
 .pd-list hr {
     height: 5px;
-    background-image: linear-gradient(to right, #4D2078, #C7AFFF);
+    background-image: linear-gradient(to right, #262078dc, #afb0ff);
+    border-radius: 20px;
 }
 .pd-list .pd-info {
-    padding-top: 50px;
+    padding-top: 20px;
+}
+.pd-list ul {
+    list-style-type: none;
+}
+.pd-list ul li::before {
+    content: "\272F";
+    color: RoyalBlue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
 }
 .pd-list .pd-text {
     font-size: 1.5rem;
