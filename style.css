@@ -108,6 +108,11 @@ section {
 .pd-list .pd-info {
     padding-top: 20px;
 }
+.pd-list .pd-title a {
+    font-weight: bold;
+    text-decoration: none;
+    color: midnightblue;
+}
 .pd-list ul {
     list-style-type: none;
 }
